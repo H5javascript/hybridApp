@@ -1,0 +1,8 @@
+{
+  "name": "mayapp.1.0",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
