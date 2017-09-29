@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {ToastController, LoadingController} from 'ionic-angular';
-import {Camera} from 'ionic-native';
+import {Camera} from 'ionic-native';//对照相机的调用
 
 @Injectable()
 export class NativeService {
