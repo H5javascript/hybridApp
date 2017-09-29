@@ -2,10 +2,10 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
-
-import { AboutPage } from '../pages/about/about';
-import { ContactPage } from '../pages/contact/contact';
+/*引入模块*/
 import { HomePage } from '../pages/home/home';
+import {BooksPage} from "../pages/books/books";
+import {ForFreePage} from "../pages/for-free/for-free";
 import { MinePage } from "../pages/mine/mine";
 import { TabsPage } from '../pages/tabs/tabs';
 
@@ -16,8 +16,8 @@ import {NativeService} from "../providers/NativeService";
 @NgModule({
   declarations: [
     MyApp,
-    AboutPage,
-    ContactPage,
+    BooksPage,
+    ForFreePage,
     HomePage,
     MinePage,
     TabsPage
@@ -29,8 +29,8 @@ import {NativeService} from "../providers/NativeService";
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    AboutPage,
-    ContactPage,
+    BooksPage,
+    ForFreePage,
     HomePage,
     MinePage,
     TabsPage

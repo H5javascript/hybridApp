@@ -2,7 +2,10 @@ import { Component } from '@angular/core';
 
 import { AboutPage } from '../about/about';
 import { ContactPage } from '../contact/contact';
+
 import { HomePage } from '../home/home';
+import {BooksPage} from "../books/books";
+import {ForFreePage} from "../for-free/for-free";
 import { MinePage} from "../mine/mine";
 
 @Component({
@@ -10,10 +13,10 @@ import { MinePage} from "../mine/mine";
 })
 export class TabsPage {
 
-  tab1Root = HomePage;
-  tab2Root = AboutPage;
-  tab3Root = ContactPage;
-  tab4Root = MinePage;
+  tab1Root = HomePage;//首页
+  tab2Root = BooksPage;//书架
+  tab3Root = ForFreePage;//就等免费
+  tab4Root = MinePage;//我的
 
   constructor() {
 
