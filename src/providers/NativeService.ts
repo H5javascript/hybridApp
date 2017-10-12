@@ -92,7 +92,7 @@ export class NativeService {
       }, options)).then(imageBase64 => {
         resolve(imageBase64);
       }).catch(err => {
-        String(err).indexOf('cancel') != -1 ? this.showToast('取消选择图片', 1500) : this.showToast('获取        照片失败');
+        String(err).indexOf('cancel') != -1 ?  this.showToast('取消选择图片', 1500) : this.showToast('获取照片失败');
       });
     });
   };

@@ -18,7 +18,7 @@ $ ionic start <项目名> tabs
 Then, to run it, cd into `项目名` and run:
 
 ```bash
-$ ionic cordova platform add ios
+$ ionic cordova platfor m add ios
 $ ionic cordova run ios
 ```
 
